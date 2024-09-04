@@ -102,7 +102,7 @@ let person2={
     ,Age:21
 };
 function getPropertyValue(objectName,propertyName){
-    propertyname = objectName[propertyName];
+    let propertyname = objectName[propertyName];
     console.log(propertyname);
 };
 getPropertyValue(person2,"Age");
